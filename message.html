@@ -1,0 +1,69 @@
+---
+layout: page
+title:  Messages
+tags:
+keywords: 留言板, 留言
+description: 
+date:
+comments: true
+---
+
+
+<!--<style TYPE="text/css">
+body {
+background-image:url('/images/html_bg.gif');  
+background-repeat:repeat;
+}
+</style>-->
+
+
+<!-- 多说评论框 start -->
+
+<div class="ds-thread" data-thread-key={{page.id}} data-title={{page.title}} data-url="harrishan.github.io{{page.url}}"></div>
+<!-- 多说评论框 end -->
+<!-- 多说公共JS代码 start (一个网页只需插入一次) -->
+<script type="text/javascript">
+    var duoshuoQuery = {short_name:"harrishan"};
+    (function() {
+        var ds = document.createElement('script');
+        ds.type = 'text/javascript';ds.async = true;
+        ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
+        ds.charset = 'UTF-8';
+        (document.getElementsByTagName('head')[0]
+                || document.getElementsByTagName('body')[0]).appendChild(ds);
+    })();
+</script>
+
+<!-- 多说公共JS代码 end -->
+
+<script>
+var isOnPc=!(/Android|webOS|iPhone|iPad|iPod|BlackBerry/i.test(navigator.userAgent));
+if(isOnPc) {
+	window.tctipConfig = {
+		staticPrefix: "http://harrishan.github.io",
+		buttonImageId: 6,
+		list:{
+			alipay: { qrimg: "http://harrishan.github.io/images/alipay.png"},
+			weixin:{qrimg: "http://harrishan.github.io/images/wechat.png"}
+		}
+	};
+}
+</script>
+
+<script src="/js/tctip.min.js"></script>
+
+
+<!-- 百度统计 -->
+
+<script>
+    var _hmt = _hmt || [];
+    (function() {
+        var hm = document.createElement("script");
+        hm.src = "//hm.baidu.com/hm.js?ffa196ec00c329170e75039f4c05c43b";
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(hm, s);
+    })();
+</script>
+
+
+<!-- 谷歌分析 -->

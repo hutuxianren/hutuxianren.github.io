@@ -1,0 +1,105 @@
+﻿title:            胡图仙人
+description:      飞雪连天射白鹿，笑书神侠倚碧鸳
+logo:             site-logo.png
+disqus_shortname: 胡图仙人
+search:           true
+# Change url to your domain. Leave localhost server or blank when working locally.
+url:              http://hutuxianren.github.io
+asset_url:        http://hutuxianren.github.io 
+
+
+
+
+# Owner/author information
+owner:
+  name:           胡图仙人
+  avatar:         bio-photo.jpg
+  email:          782208178@qq.com
+  # Social networking links used in footer. Update and remove as you like.
+  twitter:        
+  facebook:       
+  github:         hutuxianren
+  stackexchange:  
+  linkedin:       
+  instagram:      
+  flickr:         
+  tumblr:         
+  weibo:          http://weibo.com/537897955 
+  # For Google Authorship 
+  google_plus:    
+
+# Analytics and webmaster tools stuff goes here
+google_analytics:   
+google_verify:      
+# https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
+bing_verify:         
+google_ads_display: false
+tb_ads_display: false
+# Links to include in top navigation
+# For external links add external: true
+links:
+  - title: 主页
+    url: /
+  - title: 博客
+    url: /blog.html
+  - title: 分类
+    url: /tags.html
+  - title: 项目
+    url: /project.html
+  - title: 相册
+    url: /photos/index.html
+  - title: 留言
+    url: /message.html
+  - title: 关于
+    url: /about.html
+    external: true
+
+# http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone:    Asia/Shanghai
+future:      true
+highlighter: 
+markdown:    redcarpet
+
+# https://github.com/mojombo/jekyll/wiki/Permalinks
+permalink:   /blog/:year/:month/:day/:title.html
+
+redcarpet:
+  extensions:
+    - fenced_code_blocks
+    - no_intra_emphasis
+    - strikethrough
+    - autolink
+    - tables
+
+include: [".htaccess"]
+exclude: ["lib", "config.rb", "Gemfile", "Capfile", "Gemfile.lock", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules"]
+
+#gallerytag:
+#    dir: images/gallery
+#    url: images/gallery
+#    thumb_width: 250
+#    thumb_height: 250
+#    columns: 5
+#
+
+gallery:
+  # path to the gallery
+  dir: photos
+  # title for gallery index
+  title: "Photos"
+  # title prefix for gallery page. title=title_prefix+gallery_name
+  title_prefix: "Photos: "
+  # field to control sorting of galleries for the index page
+  # (possible values are: title, date_time, best_image)
+  sort_field: "date_time"
+  # sizes for thumbnails
+  thumbnail_size:
+    x: 200
+    y: 200
+  # custom configuration for individual gallery
+  # best_image is image for the index page (defaults to last image)
+  galleries:
+    胡图仙人:
+    best_image: 01.JPG
+    
+

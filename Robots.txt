@@ -1,0 +1,3 @@
+User-Agent: *
+Disallow: /photos/
+Sitemap: http://HuTuXianRen.github.io/sitemap.xml

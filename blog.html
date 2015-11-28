@@ -1,0 +1,34 @@
+---
+layout: page
+title: Articles
+description: "An archive of posts sorted by date."
+---
+
+<ul class="post-list">
+{% for post in site.posts %} 
+  <li><article><a href="{{ site.url }}{{ post.url }}">{{ post.title }} <span class="entry-date"><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%b %d, %Y" }}</time></span></a></article></li>
+{% endfor %}
+</ul>
+
+
+<script>
+var isOnPc=!(/Android|webOS|iPhone|iPad|iPod|BlackBerry/i.test(navigator.userAgent));
+if(isOnPc) {
+	window.tctipConfig = {
+		staticPrefix: "http://harrishan.github.io",
+		buttonImageId: 6,
+		list:{
+			alipay: { qrimg: "http://harrishan.github.io/images/alipay.png"},
+			weixin:{qrimg: "http://harrishan.github.io/images/wechat.png"}
+		}
+	};
+}
+</script>
+
+
+<script src="/js/tctip.min.js"></script>
+
+<!-- 百度统计 --> 
+
+
+<!-- 谷歌分析 -->
