@@ -107,7 +107,7 @@ _background-image:url("https://static.duoshuo.com/images/sprites.gif") !importan
 		-ms-transform: translate3d(0,0,0);
 		transform: translate3d(0,0,0);
 		background-color: #fefeb4;
-		background-image: url("http://harrishan.github.io/css/images/bgsky.jpg");
+		background-image: url("http://hutuxianren.github.io/css/images/bgsky.jpg");
 		background-size:cover;
 		background-position: center left;
 		background-repeat: repeat-x;
@@ -142,7 +142,7 @@ _background-image:url("https://static.duoshuo.com/images/sprites.gif") !importan
 		-ms-animation: overlay 1.5s 1.5s forwards;
 		animation: overlay 1.5s 1.5s forwards;
 		background-attachment: fixed, fixed;
-		background-image: url("http://harrishan.github.io/css/images/overlay-pattern.png"), url("http://harrishan.github.io/css/images/overlay.svg");
+		background-image: url("http://hutuxianren.github.io/css/images/overlay-pattern.png"), url("http://hutuxianren.github.io/css/images/overlay.svg");
 		background-position: top left, center center;
 		background-repeat: repeat, no-repeat;
 		background-size: auto, cover;
