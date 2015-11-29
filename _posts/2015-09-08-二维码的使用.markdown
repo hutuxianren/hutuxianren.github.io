@@ -1,0 +1,9 @@
+---
+layout: post
+title: "二维码的使用-第三方库LBXScan"
+comments: true
+share: true
+tags: iOS技术
+---
+
+使用[LBXScan](https://github.com/MxABC/LBXScan "二维码第三方库" )开源封装库，可以添加二维码图片中间logo,扫描二维码多种形式，比较完整，可以参考这个库实现。
