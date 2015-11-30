@@ -5,6 +5,7 @@ share: true
 comments: true
 tags:iOS技术
 ---
+
 更新日期:11.30 16:39
 ###1.查看pod是否有和版本```pod --version```
 ###2.国内被墙和更换源的方法,并用淘宝源安装cocoapods
