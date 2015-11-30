@@ -3,7 +3,7 @@ layout: post
 title: "cocoapods安装和使用"
 share: true
 comments: true
-tags:iOS技术
+tags: iOS技术
 ---
 
 ###1.查看pod是否有和版本```pod --version```
