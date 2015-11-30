@@ -1,8 +1,8 @@
 ---
 layout: post
 title: "cocoapods安装和使用"
-share: true
 comments: true
+share: true
 tags: iOS技术
 ---
 
