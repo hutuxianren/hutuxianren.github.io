@@ -1,0 +1,34 @@
+---
+layout: post
+comments: true
+share: true
+title: "iOS经典小知识点总结①内存管理机制"
+tags:iOS技术
+---
+###1.简述OC中内存管理机制。(参考iOS高级编程第一章)
+与retain配对使用的方法是dealloc还是release，为什么？需要与alloc配对使用的方法是dealloc还是release，为什么？readwrite，readonly，assign，retain，copy，nonatomic 、atomic、strong、weak属性的作用？并区别strong(强引用)、 weak(弱引用)？什么情况使用copy，assign，和retain？
+***
+<font color='blue'>
+回答:引用计数机制进行内存管理；与retain配对的是release,因为retain就要销毁，创建就要释放。
+
+__strong__:打开ARC时才会使用，相当于retain,适用于一般的对象类型，如UIImageView,UIImage.
+
+__weak__:打开ARC时才会使用，相当于assign,适用于一般数据类型，如对基础数据类型(NSInteger）和C数据类型（int, float, double, char)等.
+
+__nonatomic__:非原子性，atomic是原子性(保证多线程安全)。
+
+__weak 和strong的区别__：
+
+（weak和strong）不同的是 当一个对象不再有strong类型的指针指向它的时候 它会被释放  ，即使还有weak型指针指向它。
+
+一旦最后一个strong型指针离去 ，这个对象将被释放，所有剩余的weak型指针都将被清除。
+
+可能有个例子形容是妥当的。
+
+想象我们的对象是一条狗，狗想要跑掉（被释放）。
+
+strong型指针就像是栓住的狗。只要你用牵绳挂住狗，狗就不会跑掉。如果有5个人牵着一条狗（5个strong型指针指向1个对象），除非5个牵绳都脱落 ，否着狗是不会跑掉的。
+
+weak型指针就像是一个小孩指着狗喊到：“看！一只狗在那” 只要狗一直被栓着，小孩就能看到狗，（weak指针）会一直指向它。只要狗的牵绳脱落，狗就会跑掉，不管有多少小孩在看着它。
+
+只要最后一个strong型指针不再指向对象，那么对象就会被释放，同时所有的weak型指针都将会被清除。
