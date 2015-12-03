@@ -3,7 +3,7 @@ layout: post
 comments: true
 share: true
 title: "iOS经典小知识点总结①内存管理机制"
-tags:iOS技术
+tags: iOS技术
 ---
 ###1.简述OC中内存管理机制。(参考iOS高级编程第一章)
 与retain配对使用的方法是dealloc还是release，为什么？需要与alloc配对使用的方法是dealloc还是release，为什么？readwrite，readonly，assign，retain，copy，nonatomic 、atomic、strong、weak属性的作用？并区别strong(强引用)、 weak(弱引用)？什么情况使用copy，assign，和retain？
