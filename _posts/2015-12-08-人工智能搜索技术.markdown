@@ -58,5 +58,5 @@ tags: 人工智能学习
       - 最后，根据根结点的倒推值决定一个最佳走步
       - 重复上面分析过程，直到扩展到终局
       - 每扩展一次，对内部结点都用新的倒推值代替原来的静态估值或原来的倒推值。如果一个行动方案能获得较大的倒推值，则它就是当前最好的行动方案。
-    ![极大极小分析法](http://hutuxianren.github.io/_posts/images/jidajixiao.png)
+    ![极大极小分析法](http://hutuxianren.github.io/images/jidajixiao.png)
    
