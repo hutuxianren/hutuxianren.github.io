@@ -1,0 +1,45 @@
+---
+layout: post
+tilte: "CCNA2 第七章考试题"
+comments: true
+share: true
+tags: 高级计算机网络学习
+---
+
+1.passive-interface命令的目的是什么? 
+
+__总结__： allows a router to receive routing updates on an interface but not send updates via that interface
+
+在RIP或IGRP路由器上,配置passive-interface的作用是:让特定的接口不通告任何路由更新的同时,能接受到所有的路由更新。  
+      运用场景:
+
+     在多路访问环境中,配合neighbor命令,让RIP或IGRP以单播方式发送更新替代                 广播更新。 
+
+在OSPF或EIGRP路由器上,配置passive-interface的作用是:让特定借口不能收,发hello数据包,也就不能形成邻居关系
+
+运用场景:
+
+     1：让特定路由器接口不参与路由协议进程
+
+    2：在不通过特定接口建立任何邻居关系的同时,又能通告这些接口所处网段的路由。
+
+ 
+
+配置实例： 
+         `router ospf 1`
+
+         passive-interface ethernet0
+         
+  2.动态路由协议的两个任务  
+  更新和维护路由表；网络发现
+  3.[无类路由协议](http://baike.baidu.com/link?url=AEMLR_JUN5JDrCjaG_6mW85diAHOCVGB-KPo64ydTiM5QOv1XdVhdj1xzEXzb-XM-5g9MDxmlBhqWYLIwU7xXa):OSPF、IS-IS、RIPv2
+  4.收敛时间
+  收敛时间是指路由器发现网络的拓扑结构发生变化后，路由信息同步的过程；而整个同步过程所共花费的时间为收敛时间，或者说是某个路由信息变化后反映到所有路由器中所需要的时间，这个我们叫做收敛时间。
+一般来说如果互联网络的拓扑结构永远不发生变化，则收敛不会成为一个问题。关键是网络上经常会出现改变：网络升级加入新的路由器、或者说是路由器接口故障、带宽分配的改变、路由器cpu使用情况的增加或减少等。所有的这些条件的改变都可能会是网络的拓扑结构发生变化，导致路由器在路由表重新计算路由，并且把重新计算的路由表分发给相邻的路由器。相邻的路由器也要作同样的工作，直到所有的路由器都开始使用新计算的路由；如果路由器花费太长的时间来检测、计算和分发新路由，将会导致路由选择回路和网络故障等问题
+
+5.拓扑的变化和初始化路由协议将触发发送链路状态包
+
+6.路由器建立链路状态路由协议和发送链路状态包的必要条件:路由确定了代价和毗邻。
+
+7.[链路路由协议](http://baike.baidu.com/link?url=OJcol8Uman6UfcYpQYRxFE3gWFL43zbi_u2vLb4GdJsqVl65dKAosVUKc7AuaGvOWof-LVZ-i1-z4bcEc2kfyq)的优缺点:
+
