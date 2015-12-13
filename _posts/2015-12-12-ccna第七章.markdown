@@ -3,7 +3,7 @@ layout: post
 tilte: "CCNA2 第七章考试题"
 comments: true
 share: true
-tags: 高级计算机网络学习
+tags: 计算机高级网络学习
 ---
 
 1.passive-interface命令的目的是什么? 
