@@ -80,6 +80,8 @@ DR选出的同时，也选出BDR，DR故障后，由BDR接替DR成为新的DR
 - 自治域边界路由器 (ASBR) --- 路由器至少有一个接口不属于本自治域/OSPF. 
 
 ###OSPF状态
+[八种状态详解](http://www.360doc.com/content/12/1228/14/3405077_256782292.shtml)
+
 - Down
 - Init（初始）
 - Two-way（双向）
