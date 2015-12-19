@@ -33,3 +33,15 @@ tags: 计算机高级网络学习
 - notification:异常情况通报，终止连接
 
 ###BGP重要属性
+- Origin属性(必遵)
+   - 路由是用"network"命令注入到BGP路由表中的，则origin属性为IGP
+   - 路由是用"redistribute"命令注入到BGP路由表中的，则origin属性为Incomplete
+- AS Path属性(必遵)
+   - 描述了完整的路径，途径的AS
+   - 不算自己，从离自己最近的AS开始，以目的网段的AS结束   
+   - 避免了环路，如果从外部收到一条包含自己AS的路由，就说明有环路，此时BGP将丢弃该路由。 
+- Next Hop属性
+   - 下一个AS
+   - 在同一个AS，Next hop值不会发生变化
+- 本地优先(local pref)属性
+   
