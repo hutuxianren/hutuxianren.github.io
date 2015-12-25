@@ -1,0 +1,7 @@
+---
+layout: post
+comments: share
+title: "Mac上用OBS和SoundFlowered录制桌面声音注意事项"
+tags: Mac Software
+---
+[简书上我写的使用教程](http://www.jianshu.com/p/e129609f0630)
