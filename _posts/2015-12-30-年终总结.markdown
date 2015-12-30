@@ -1,9 +1,9 @@
 ---
-lauout: post
+layout: post
 comments: true
 share: true
 title: "2015年年终总结"
-tags: "日记"
+tags: 日记
 ---
 
 ##今年有很多第一次
