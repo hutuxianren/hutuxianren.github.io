@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "<the docker book> study 第三章 docker基本命令"
-tags: the docker book
+title: "thedockerbook study 第三章 docker基本命令"
+tags: theDockerBook
 comments: true
 share: true 
 ---
