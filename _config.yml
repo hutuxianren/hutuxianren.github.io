@@ -58,18 +58,21 @@ links:
 timezone:    Asia/Shanghai
 future:      true
 highlighter: pygments
-markdown:    redcarpet
+markdown:    kramdown
 
 # https://github.com/mojombo/jekyll/wiki/Permalinks
 permalink:   /blog/:year/:month/:day/:title.html
 
-redcarpet:
+kramdown:
+  input: GFM
   extensions:
-    - fenced_code_blocks
-    - no_intra_emphasis
-    - strikethrough
     - autolink
-    - tables
+    - footnotes
+    - smart
+  use_coderay: true
+  syntax_highlighter: rouge
+  coderay:
+    coderay_line_numbers:  nil
 
 include: [".htaccess"]
 exclude: ["lib", "config.rb", "Gemfile", "Capfile", "Gemfile.lock", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules"]
