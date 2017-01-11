@@ -63,52 +63,21 @@ markdown:    kramdown
 # https://github.com/mojombo/jekyll/wiki/Permalinks
 permalink:   /blog/:year/:month/:day/:title.html
 
-# kramdown:
-#   input: GFM
-#   extensions:
-#     - autolink
-#     - footnotes
-#     - smart
-#   use_coderay: true
-#   syntax_highlighter: rouge
-#   coderay:
-#     coderay_line_numbers:  nil
-
-# include: [".htaccess"]
-# exclude: ["lib", "config.rb", "Gemfile", "Capfile", "Gemfile.lock", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules"]
 kramdown:
   input: GFM
-  auto_ids: true
-  footnote_nr: 1
-  entity_output: as_char
-  toc_levels: 1..6
-  enable_coderay: false
+#hard_wrap: false
+  extensions:
+    - autolink
+    - footnotes
+    - smart
+  use_coderay: true
+  syntax_highlighter: rouge
+  coderay:
+    coderay_line_numbers:  nil
 
-include: 
-  - .htaccess
-exclude: 
-  - "*.less"
-  - "*.sublime-project"
-  - "*.sublime-workspace"
-  - .asset-cache
-  - .bundle
-  - .jekyll-assets-cache
-  - .sass-cache
-  - CHANGELOG
-  - Capfile
-  - Gemfile
-  - Gruntfile.js
-  - LICENSE
-  - README
-  - Rakefile
-  - config
-  - gulpfile.js
-  - lib
-  - log
-  - node_modules
-  - package.json
-  - spec
-  - tmp
+include: [".htaccess"]
+exclude: ["lib", "config.rb", "Gemfile", "Capfile", "Gemfile.lock", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules"]
+
 
 #gallerytag:
 #    dir: images/gallery
