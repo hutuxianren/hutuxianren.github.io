@@ -70,6 +70,7 @@ kramdown:
     - autolink
     - footnotes
     - smart
+  hard_wrap: false
   use_coderay: true
   syntax_highlighter: rouge
   coderay:
