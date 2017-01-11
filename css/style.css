@@ -106,7 +106,7 @@ _background-image:url("https://static.duoshuo.com/images/sprites.gif") !importan
 		-o-transform: translate3d(0,0,0);
 		-ms-transform: translate3d(0,0,0);
 		transform: translate3d(0,0,0);
-		background-color: #fefeb4;
+		background-color: #000000;
 		background-image: url("http://hutuxianren.github.io/css/images/bgsky.jpg");
 		background-size:cover;
 		background-position: center left;
