@@ -5,7 +5,7 @@ share: true
 comments: true
 tags: 计算机高级网络学习
 ---
-###BGP概述
+### BGP概述
 - 允许基于策略（policy-based）的路由选择，是一种距离矢量路由协议，但避免了环路。
 - 通过TCP传输，端口号179
 - 支持CIDR路由聚合
@@ -16,23 +16,23 @@ tags: 计算机高级网络学习
 - BGP发言者（BGP Speaker）：运行BGP的设备
 - BGP对等体（BGP peer）：运行BGP的设备相互之间就叫对等体
 
-###BGP使用条件
+### BGP使用条件
 - 在多个AS间传输数据
 - 两AS间存在多条路径 
 - 需要做路由策略和选择
 
-###不适用BGP情况
+### 不适用BGP情况
 - AS只有一个出口
 - 所有出口指向一个ISP
 - 路由性能不高，内存不高，CPU太慢，带宽不大
 
-###BGP报文
+### BGP报文
 - open:打招呼，协商参数
 - keepalive:30s交换一次报文
 - update:链路变化更新
 - notification:异常情况通报，终止连接
 
-###BGP重要属性
+### BGP重要属性
 - Origin属性(必遵)
    - 路由是用"network"命令注入到BGP路由表中的，则origin属性为IGP
    - 路由是用"redistribute"命令注入到BGP路由表中的，则origin属性为Incomplete

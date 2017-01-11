@@ -6,7 +6,7 @@ share: true
 tags: 人工智能学习
 ---
 
-###[C4.5算法](http://blog.csdn.net/hwwn2009/article/details/38510137)
+### [C4.5算法](http://blog.csdn.net/hwwn2009/article/details/38510137)
 决策树分类算法，对ID3算法进行优化
 
 概念:
@@ -14,19 +14,19 @@ tags: 人工智能学习
 - ID3:Entropy熵、信息增益
 - C4.5:优化在能处理连续型的，提出了新概念分离信息和信息增益率。
 
-###[k-Means算法](http://coolshell.cn/articles/7779.html)
+### [k-Means算法](http://coolshell.cn/articles/7779.html)
 利用程序计算出点群
 
-###[svm](http://www.cnblogs.com/LeftNotEasy/archive/2011/05/02/basic-of-svm.html)
+### [svm](http://www.cnblogs.com/LeftNotEasy/archive/2011/05/02/basic-of-svm.html)
 决策树算法
 
-###[Apriori Algorithm](http://www.cnblogs.com/gaizai/archive/2010/03/31/1701573.html)
+### [Apriori Algorithm](http://www.cnblogs.com/gaizai/archive/2010/03/31/1701573.html)
 　　关于这个算法有一个非常有名的故事："尿布和啤酒"。故事是这样的：美国的妇女们经常会嘱咐她们的丈夫下班后为孩子买尿布，而丈夫在买完尿布后又要顺 手买回自己爱喝的啤酒，因此啤酒和尿布在一起被购买的机会很多。这个举措使尿布和啤酒的销量双双增加，并一直为众商家所津津乐道。
 
 重要概念
 频繁集，支持度，剪枝步
 
-###[EM最大期望算法](http://www.36dsj.com/archives/20947)
+### [EM最大期望算法](http://www.36dsj.com/archives/20947)
 
 食堂的大师傅炒了一份菜，要等分成两份给两个人吃——显然没有必要拿来天平一点一点的精确的去称分量，最简单的办法是先随意的把菜分到两个碗中，然后观察是否一样多，把比较多的那一份取出一点放到另一个碗中，这个过程一直迭代地执行下去，直到大家看不出两个碗所容纳的菜有什么分量上的不同为止。
 
@@ -34,24 +34,24 @@ EM算法就是这样，假设我们估计知道A和B两个参数，在开始状�
 
 重要概念:最大似然估计
 
-###[Google PageRank算法](http://blog.codinglabs.org/articles/intro-to-pagerank.html)
+### [Google PageRank算法](http://blog.codinglabs.org/articles/intro-to-pagerank.html)
 
 优化搜索引擎的文章排名算法，选出高质量的网页放在前面。
 
 算法思想:根据网站的外链和内链的数量和质量来选取网站。
 
-###[Adaboost算法](http://blog.csdn.net/haidao2009/article/details/7514787)
+### [Adaboost算法](http://blog.csdn.net/haidao2009/article/details/7514787)
 
   AdaBoost 是一种迭代算法，其核心思想是针对同一个训练集训练不同的分类器，即弱分类器，然后把这些弱分类器集合起来，构造一个更强的最终分类器。(很多博客里说的三个臭皮匠赛过诸葛亮)
 
   算法本身是改变数据分布实现的，它根据每次训练集之中的每个样本的分类是否正确，以及上次的总体分类的准确率，来确定每个样本的权值。将修改权值的新数据送给下层分类器进行训练，然后将每次训练得到的分类器融合起来，作为最后的决策分类器。
 
-###[KNN算法](http://coolshell.cn/articles/8052.html)
-###[朴素贝叶斯算法](http://www.ruanyifeng.com/blog/2013/12/naive_bayes_classifier.html)
+### [KNN算法](http://coolshell.cn/articles/8052.html)
+### [朴素贝叶斯算法](http://www.ruanyifeng.com/blog/2013/12/naive_bayes_classifier.html)
 
-###[cart:分类与决策树](http://jasonding1354.github.io/2015/07/22/Machine%20Learning/%E3%80%90%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E5%9F%BA%E7%A1%80%E3%80%91%E5%86%B3%E7%AD%96%E6%A0%91%E7%AE%97%E6%B3%95/)
+### [cart:分类与决策树](http://jasonding1354.github.io/2015/07/22/Machine%20Learning/%E3%80%90%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E5%9F%BA%E7%A1%80%E3%80%91%E5%86%B3%E7%AD%96%E6%A0%91%E7%AE%97%E6%B3%95/)
 
-###补充知识点
+### 补充知识点
 
  [有监督学习和无监督学习](https://www.zhihu.com/question/23194489)
  

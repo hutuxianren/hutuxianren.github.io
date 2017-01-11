@@ -22,7 +22,7 @@ OpenShit命令介绍
 ```./openshit.sh <--all|service_name> clean```可以清除服务的数据库，若服务出问题了可以直接清掉数据库然后重新config
 
 ***
-###安装步骤
+### 安装步骤
 1.  ```  git  clone https://github.com/windworst/openshit.git``` 
 2. 修改配置文件setting.conf.里面有很多密码:数据库密码,服务密码.默认的可以更改,不改也没什么.改变网络配置.配置文件内IP值都设置称自己的IP, 网卡设置成自己的网卡(默认为eth0).<h3>两个地方需要改ip地址，其余的只是索引.</h3>
 3. 配置文件修改完成后开始安装

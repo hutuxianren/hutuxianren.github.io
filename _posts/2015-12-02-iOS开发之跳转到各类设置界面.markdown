@@ -7,7 +7,7 @@ tags: iOS技术
 ---
 本文内容摘自:
 [刚刚在线](http://www.superqq.com/blog/2015/12/01/jump-setting-per-page/)感谢原文作者提供好用的小技巧
-#需求
+# 需求
 从应用跳到系统设置里的WiFi界面有这个需求存在吗？答案是肯定的。比如以下两个例子：
 
 在没有网的状态下，你可能想提醒用户去设置界面连接WiFi。如果不能跳到WiFi界面，只能在APP里面做出文字提示。这样很多小白用户可能不会看提示，只会觉得APP没有做好。
@@ -16,10 +16,10 @@ tags: iOS技术
 
 以上这两种情况只是举个例子，这个小功能的用处还是很多的，大家可以自行探索。
 
-#实现
+# 实现
 在项目中的info.plist中添加 URL types 并设置一项URL Schemes为prefs，如下图:![info设置](http://images.90159.com/12/wifi1.png)Document Role暂不需要设置。
 
-#实现代码
+# 实现代码
 - 打开Facebook设置
 ```
 NSURL *url = [NSURL URLWithString:@"prefs:root=FACEBOOK"];```
@@ -39,7 +39,7 @@ if ([[UIApplication sharedApplication] canOpenURL:url])
 
 __其他服务设置打开方式类似，文章末尾有各类设置的URL,但要注意的是如wifi、音乐等服务可能要在真机下才能打开，这一点待测试。__
 
-#参数配置
+# 参数配置
 
 - 列表
 <pre>
@@ -80,5 +80,5 @@ Wallpaper — prefs:root=Wallpaper
 Wi-Fi — prefs:root=WIFI
 </pre>
 
-#参考资料
+# 参考资料
 [iOSStringDemo](https://github.com/worldligang/iOSStrongDemo)
